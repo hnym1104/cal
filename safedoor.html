@@ -46,77 +46,71 @@ input {
 	padding: 0px;
 	border: none;
 }
+	
+	.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tg td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg th {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg .tg-0pky {
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
 </style>
 <body>
 	<p style="text-align: center;">
 		<img src="main4.jpg" width="800px" height="1845px" />
 	</p>
-	<div>
-		<button type="button" class="btn" id="btn1"
-			style="position: relative; bottom: 862px; left: 365px;"
-			onclick="cal('1')">1</button>
+	<table class="tg" style="width: 510px; height: 400px; position: absolute; left: 380px; top: 1000px; ">
+		<tbody>
+			<tr>
+				<th class="tg-0pky"></th>
+				<th class="tg-0pky"></th>
+				<th class="tg-0pky"></th>
+				<th class="tg-0pky"></th>
+			</tr>
 
-		<button type="button" class="btn" id="btn2"
-			style="position: relative; bottom: 862px; left: 381px;"
-			onclick="cal('2')">2</button>
-
-		<button type="button" class="btn" id="btn3"
-			style="position: relative; bottom: 862px; left: 397px;"
-			onclick="cal('3')">3</button>
-
-		<button type="button" class="btn" id="btnback"
-			style="position: relative; bottom: 862px; left: 413px;"
-			onclick="del()">←</button>
-	</div>
-
-	<div>
-		<button type="button" class="btn" id="btn4"
-			style="position: relative; bottom: 835px; left: 365px;"
-			onclick="cal('4')">4</button>
-
-		<button type="button" class="btn" id="btn5"
-			style="position: relative; bottom: 835px; left: 381px;"
-			onclick="cal('5')">5</button>
-
-		<button type="button" class="btn" id="btn6"
-			style="position: relative; bottom: 835px; left: 397px;"
-			onclick="cal('6')">6</button>
-	</div>
-
-	<div>
-		<button type="button" class="btn" id="btn7"
-			style="position: relative; bottom: 808px; left: 365px;"
-			onclick="cal('7')">7</button>
-
-		<button type="button" class="btn" id="btn8"
-			style="position: relative; bottom: 808px; left: 381px;"
-			onclick="cal('8')">8</button>
-
-		<button type="button" class="btn" id="btn9"
-			style="position: relative; bottom: 808px; left: 397px;"
-			onclick="cal('9')">9</button>
-
-	</div>
-
-	<div>
-		<button type="button" class="btn0" id="btn7"
-			style="position: relative; bottom: 781px; left: 365px;"
-			onclick="cal('0')">0</button>
-
-		<button type="button" class="btn" id="btnspot"
-			style="position: relative; bottom: 781px; left: 381px;"
-			onclick="cal('.')">.</button>
-	</div>
-		<div>
-			<button type="submit" class="btncal" id="btncal"
-				style="position: relative; bottom: 1055px; left: 766px;"
-				onclick=" ">
-				<img src="계산하기.png" alt=""
-					style="height: 270px; width: 112px;">
-			</button>
-
-		</div>
-		<input type="text" id="calculator" name="calculator">
+			<tr>
+				<td class="tg-0pky"></td>
+				<td class="tg-0pky"></td>
+				<td class="tg-0pky"></td>
+				<td class="tg-0pky" rowspan="3"></td>
+			</tr>
+			<tr>
+				<td class="tg-0pky"></td>
+				<td class="tg-0pky"></td>
+				<td class="tg-0pky"></td>
+			</tr>
+			<tr>
+				<td class="tg-0pky" colspan="2"></td>
+				<td class="tg-0pky"></td>
+			</tr>
+		</tbody>
+	</table>
 
 </body>
 
