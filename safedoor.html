@@ -25,6 +25,9 @@
 .btncal {
 	width: 80%;
 	height: 90%;
+	position: absolute;
+	top: 30%;
+	left: 60%;
 	cursor: pointer;
 	color: white;
 	font-size: 20%;
@@ -115,6 +118,9 @@ input {
 	.btncal {
 		width: 90%;
 		height: 93%;
+		position: absolute;
+		top: 30%;
+		left: 60%;
 		cursor: pointer;
 		color: white;
 		font-size: 300%;
@@ -209,12 +215,7 @@ input {
 					<td class="tg-0pky">
 						<button type="button" class="btn" id="btn1" onclick="cal('6')">6</button>
 					</td>
-					<td class="tg-0pky" rowspan="3">
-						<button type="submit" class="btncal" id="btncal"
-							onclick="location.href='safedoor/result/'">
-							<img src="cal.png" alt="" class="calimg">
-						</button>
-					</td>
+					<td class="tg-0pky" rowspan="3"></td>
 				</tr>
 				<tr>
 					<td class="tg-0pky">
@@ -238,6 +239,9 @@ input {
 			</tbody>
 		</table>
 		<input type="text" class="calculator" id="calculator" name="calculator">
+		<button type="submit" class="btncal" id="btncal" onclick="location.href='safedoor/result/'">
+			<img src="cal.png" alt="" class="calimg">
+		</button>
 </body>
 
 <script>
