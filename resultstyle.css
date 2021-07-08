@@ -6,12 +6,12 @@
 
 	.backbtn {
 		position: absolute;
-		top: 95%;
-		left: 19%;
-		width: 58%;
+		top: 92%;
+		left: 18%;
+		width: 62%;
 		height: 4%;
 		color: white;
-		font-size: 150%;
+		font-size: 100%;
 		background-color: #7A99AD;
 		border: none;
 	}
@@ -25,9 +25,9 @@
 
 	.backbtn {
 		position: absolute;
-		top: 110%;
-		left: 19%;
-		width: 558%;
+		top: 125%;
+		left: 18%;
+		width: 58%;
 		height: 7%;
 		color: white;
 		font-size: 200%;
