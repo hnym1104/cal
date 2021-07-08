@@ -15,8 +15,8 @@
 <body>
 	<script>
 		temp=location.href.split("?");
-		data=temp[1].split(":");
-		var length=parseFloat(data[1]);
+		data=temp[1];
+		var length=parseFloat(data);
 		alert(length);
 		if(length >= 54 && length <=65) {
 			document.write("<p style="text-align: center;">
