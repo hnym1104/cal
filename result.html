@@ -4,16 +4,18 @@
 <meta charset="UTF-8">
 <title>Javascript Ex1</title>
 <script>
+ function result() {
 var temp = location.href.split("?");
 data = temp[1];
 var val = '문자열';
 document.write('val :' + val + '<br>');
  document.write('data :' + data + '<br>');
+ }
 </script>
 
 </head>
 
-<body>
+<body onload="result()">
 
 </body>
 
