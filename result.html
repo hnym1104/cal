@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=no,
+  maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="EUC-KR">
+<title>안전문 사이즈 확인</title>
+</head>
+<style>
+.result {
+	width: 64%;
+	height: 315%;
+}
+</style>
+<body>
+	<c:if test="${result >= 54 && result <= 63}">
+		<p style="text-align: center;">
+			<img src="54~63-소형.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 64 && result <= 74}">
+		<p style="text-align: center;">
+			<img src="64~74-중형.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 75 && result <= 82}">
+		<p style="text-align: center;">
+			<img src="75~82-대형.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 83 && result <= 84}">
+		<p style="text-align: center;">
+			<img src="83~84.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 85 && result <= 92}">
+		<p style="text-align: center;">
+			<img src="85~92.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 93 && result <= 97}">
+		<p style="text-align: center;">
+			<img src="93~97.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 98 && result <= 103}">
+		<p style="text-align: center;">
+			<img src="98~103.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 103 && result <= 105}">
+		<p style="text-align: center;">
+			<img src="103~105.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 106 && result <= 112}">
+		<p style="text-align: center;">
+			<img src="106~112.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 113 && result <= 115}">
+		<p style="text-align: center;">
+			<img src="113~115.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 116 && result <= 121}">
+		<p style="text-align: center;">
+			<img src="116~121.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 122 && result <= 127}">
+		<p style="text-align: center;">
+			<img src="122~127.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 128 && result <= 132}">
+		<p style="text-align: center;">
+			<img src="128~132.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 133 && result <= 135}">
+		<p style="text-align: center;">
+			<img src="133~135.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result >= 136 && result <= 142}">
+		<p style="text-align: center;">
+			<img src="136~142.jpg"
+				class="result" />
+		</p>
+	</c:if>
+	<c:if test="${result > 237 || result < 54}">
+		<p style="text-align: center;">
+			<img src="그-외-사이즈.jpg" class="result" />
+		</p>
+	</c:if>
+</body>
+</html>
