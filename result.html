@@ -5,23 +5,35 @@
   maximum-scale=1.0, minimum-scale=1.0">
 <title>안전문 계산기</title>
 <script>
- function result() {
-var temp = location.href.split("?");
-data = temp[1];
-dataFloat = parseFloat(data);
 var val = '문자열';
 document.write('val :' + val + '<br>');
- document.write('data의 값은 :' + data + '<br>');
-document.write('data의 실수 값은 :' + dataFloat + '<br>');
-  document.resultimg.src="54~63-소형.jpg";
- }
+</script>
+	
+<script>
+        function logo_info() {
+            var temp = location.href.split("?");
+		data = temp[1];
+		result = parseFloat(data);
+		 document.write('data의 값은???2222222 :' + data + '<br>');
+		document.write('data의 실수 값은????????2222222 :' + result + '<br>');
+		var img_src;
+           if (result >= 54 && result <= 64) {
+			img_src = "54~63-소형.jpg"
+		}
+		else {
+			img_src = "그-외-사이즈.jpg"
+		}
+            return img_src;
+        } 
 </script>
 </head>
 
-<body onload="result()">
+<body>
    <p style="text-align: center;">
-			  <img name="resultimg" src="그-외-사이즈.jpg" class="result" />
-		</p>
+   <img id="resultimg" src="">
+       <script>document.getElementById('logo').src=logo_info()</script>
+</p>
+	
 </body>
 
 </html>
