@@ -22,13 +22,13 @@
 		border: none;
 		padding: 0% 0%;
 	}
-	
+
 		button:active {
 		margin-left: 2%;
 		margin-right: 2%;
 		box-shadow: none;
 	}
-	
+
 	button:active {
 		margin-left: 2%;
 		margin-right: 2%;
@@ -106,12 +106,12 @@
 		width: 25%;
 	}
 
-	.calimg {	
+	.calimg {
 		width: 80%;
 		height: 80%;
 	}
 }
-	
+
 @media (min-width: 480px) and (max-width: 769px) {
 	.img {
 		width: 100%;
@@ -128,7 +128,7 @@
 		border: none;
 		padding: 0% 0%;
 	}
-	
+
 	button:active {
 		margin-left: 2%;
 		margin-right: 2%;
@@ -206,7 +206,7 @@
 		width: 25%;
 	}
 
-	.calimg {	
+	.calimg {
 		width: 80%;
 		height: 80%;
 	}
@@ -227,7 +227,7 @@
 		border: none;
 		padding: 0% 0%;
 	}
-	.btncal {	
+	.btncal {
 		width: 90%;
 		height: 92.5%;
 		background-color: #EF8718;
@@ -288,7 +288,7 @@
 		padding: 0% 0%;
 		width: 25%;
 	}
-	
+
 	.calimg {
 		width: 100%;
 		height: 100%;
@@ -299,6 +299,7 @@
 	<p style="text-align: center;">
 		<img src="main4.png" class="img" />
 	</p>
+	<form action="javascript:result()" method="post">
 		<table class="tg">
 			<tbody>
 				<tr>
@@ -327,8 +328,7 @@
 						<button type="button" class="btn" id="btn1" onclick="cal('6')">6</button>
 					</td>
 					<td class="tg-0pky" rowspan="3">
-						<button type="submit" class="btncal" id="btncal" 
-						onclick="location.href='result.html'"><b>계산<br>하기<b></button>
+						<button type="submit" class="btncal" id="btncal"><b>계산<br>하기<b></button>
 					</td>
 				</tr>
 				<tr>
@@ -353,6 +353,7 @@
 			</tbody>
 		</table>
 		<input type="text" class="calculator" id="calculator" name="calculator">
+	</form>
 </body>
 
 <script>
@@ -366,6 +367,13 @@ function cal(char) {
 function del() {
 	var cal = document.getElementById('calculator');
 	cal.value = cal.value.slice(0, -1);
+}
+</script>
+
+<script>
+function result() {
+	var cal = document.getElementById('calculator');
+	location.href="result.html?length:"+cal;
 }
 </script>
 </html>
