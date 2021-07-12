@@ -19,7 +19,7 @@ function result_img() {
 		} else if (result >= 83 && result <= 84) {
 			img_src = "result/83~84.jpg"
 		} else if (result >= 85 && result <= 92) {
-			img_src = "reuslt/85~92.jpg"
+			img_src = "result/85~92.jpg"
 		} else if (result >= 93 && result <= 97) {
 			img_src = "result/93~97.jpg"
 		} else if (result >= 98 && result <= 103) {
@@ -29,7 +29,7 @@ function result_img() {
 		} else if (result >= 106 && result <= 112) {
 			img_src = "result/106~112.jpg"
 		} else if (result >= 113 && result <= 115) {
-			img_src = "uslt/113~115.jpg"
+			img_src = "result/113~115.jpg"
 		} else if (result >= 116 && result <= 121) {
 			img_src = "result/116~121.jpg"
 		} else if (result >= 122 && result <= 127) {
