@@ -352,7 +352,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<input type="text" class="calculator" id="calculator" name="calculator" lengthonly="true">
+		<input type="text" class="calculator" id="calculator" name="calculator" onkeydown="this.value=this.value.replace(/[^0-9.]/g,'')">
 	</form>
 </body>
 
@@ -374,12 +374,6 @@ function del() {
 function result() {
 	var cal = document.getElementById('calculator');
 	location.href="result.html?"+cal.value;
-}
-</script>
-	
-<script>
-$(window).ready(function () {
-	$(document).on("keyup", "input:text[lengthonly]", function() {$(this).val( $(this).val().replace(/[^0-9.]/gi,"") );})
 }
 </script>
 </html>
