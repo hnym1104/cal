@@ -1,6 +1,11 @@
 function result_img() {
-		var temp = location.href.split("?");
-		data = temp[1];
+	var temp = location.href.split("?");
+	data = temp[1];
+	if(data == "") {
+		alert("측정 길이를 입력하십시오.");
+		location.href="safedoor.html";
+	}
+	else {
 		result = parseFloat(data);
 		var img_src;
 		if (result >= 54 && result <= 64) {
@@ -74,5 +79,6 @@ function result_img() {
 		} else {
 			img_src = "result/그-외-사이즈.jpg"
 		}
-		return img_src;
 	}
+	return img_src;
+}
