@@ -12,10 +12,8 @@ function result_img() {
 			img_src = "result/54~63-소형.jpg"
 		} else if (result >= 64 && result <= 74) {
 			img_src = "result/64~74-중형.jpg"
-		} else if (result >= 64 && result <= 74) {
-			img_src = "result/75~82-대형.jpg"
 		} else if (result >= 75 && result <= 82) {
-			img_src = "result/75~82.jpg"
+			img_src = "result/75~82-대형.jpg"
 		} else if (result >= 83 && result <= 84) {
 			img_src = "result/83~84.jpg"
 		} else if (result >= 85 && result <= 92) {
