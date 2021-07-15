@@ -357,6 +357,14 @@
 		padding: 0% 0%;
 		width: 25%;
 	}
+	
+	.select {
+		position: absolute;
+		top: 500px;
+		left: 30%;
+		width: 50%;
+		height: 50px;
+	}
 }
 	
 @media all and (min-width:1200px) and (max-width:1599px) {
@@ -592,6 +600,10 @@
 			</tbody>
 		</table>
 		<input type="text" class="calculator" id="calculator" name="calculator" onkeyup="this.value=this.value.replace(/[^0-9.]/g,'')">
+		<select class="select" id="select" name="select">
+			<option value="1">세이펫 안전문</option>
+			<option value="2">차일드스타 안전문</option>
+		</select>
 	</form>
 </body>
 
