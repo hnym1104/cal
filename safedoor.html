@@ -362,11 +362,11 @@
 		position: absolute;
 		top: 850px;
 		left: 29.8%;
-		width: 40.2%;
-		height: 80px;
+		width: 40.5%;
+		height: 90px;
 		border: 3px solid black;
 		padding: 0% 0%;
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: bold;
 	}
 }
@@ -629,7 +629,8 @@ function del() {
 <script>
 function result() {
 	var cal = document.getElementById('calculator');
-	location.href="result.html?"+cal.value;
+	var sel = document.getElementById('select');
+	location.href="result.html?"+sel.value+":"+cal.value;
 }
 </script>
 </html>
