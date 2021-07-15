@@ -1,6 +1,14 @@
 function result_img() {
 	var temp = location.href.split("?");
-	data = temp[1];
+	str = temp[1];
+	var temp2 = str.split(":");
+	data = temp2[1];
+	select = temp2[0];
+	if(select == "1") {
+		alert("세이펫");
+	} else if (select == "2") {
+		alert("차일드스타");
+	}
 	if(data == "") {
 		alert("측정 길이를 입력하십시오.");
 		location.href="safedoor.html";
