@@ -8,7 +8,9 @@ function result_img() {
 	else {
 		result = parseFloat(data);
 		var img_src;
-		if (result >= 54 && result <= 64) {
+		if (result < 54) {
+			img_src = "result/54미만-세이펫.jpg"
+		} else if (result >= 54 && result <= 64) {
 			img_src = "result/54~63-소형.jpg"
 		} else if (result >= 64 && result <= 74) {
 			img_src = "result/64~74-중형.jpg"
