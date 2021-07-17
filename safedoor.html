@@ -540,6 +540,30 @@
 		padding: 0% 0%;
 		width: 25%;
 	}
+	
+	.select {
+		position: absolute;
+		top: 990px;
+		left: 29.7%;
+		width: 40.3%;
+		height: 85px;
+		padding-left: 0.8%;
+		pading-top: 0px;
+		padding-bottom: 0px;
+		font-size: 25px;
+		font-weight: bold;
+		border: 2.5px solid black;
+		background: url('arrow.png') no-repeat 98% 50%;
+		background-color: white;
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	
+	select::-ms-expand {
+		display: none;
+	}
 }
 </style>
 <body>
@@ -604,6 +628,7 @@
 			<option value="0" selected>안전문 종류를 선택하세요.</option>
 			<option value="1">세이펫 안전문</option>
 			<option value="2">차일드스타 안전문</option>
+			<option value="3">프리미엄 안전문</option>
 		</select>
 	</form>
 </body>
