@@ -129,6 +129,10 @@
 		border: none;
 		padding: 0% 0%;
 	}
+		
+	.btn:active {
+		background-color: #FFFF00;
+	}
 
 	.btncal {
 		width: 90%;
@@ -348,6 +352,7 @@
 		width: 64%;
 		height: 2060px;
 	}
+	
 	.btn {
 		width: 90%;
 		height: 80%;
@@ -357,6 +362,10 @@
 		font-size: 300%;
 		border: none;
 		padding: 0% 0%;
+	}
+		
+	.btn:active {
+		background-color: #FFFF00;
 	}
 	
 	.btncal {
@@ -468,6 +477,10 @@
 		font-size: 450%;
 		border: none;
 		padding: 0% 0%;
+	}
+		
+	.btn:active {
+		background-color: #FFFF00;
 	}
 
 	.btncal {
