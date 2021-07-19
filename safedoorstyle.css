@@ -16,7 +16,7 @@
 	}
 	
 	.btn:active {
-		background-color: #FFFF00;
+		background-color: #F6FC7F;
 	}
 
 	.btncal {
@@ -40,6 +40,10 @@
 		font-size: 140%;
 		border: none;
 		padding: 0% 0%;
+	}
+	
+	.btn0:active {
+		background-color: #F6FC7F;
 	}
 
 	input:focus {
@@ -131,7 +135,7 @@
 	}
 		
 	.btn:active {
-		background-color: #FFFF00;
+		background-color: #F6FC7F;
 	}
 
 	.btncal {
@@ -155,6 +159,10 @@
 		font-size: 300%;
 		border: none;
 		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
 	}
 
 	input:focus {
@@ -248,7 +256,7 @@
 	}
 	
 	.btn:active {
-		background-color: #FFFF00;
+		background-color: #F6FC7F;
 	}
 
 	.btncal {
@@ -272,6 +280,10 @@
 		font-size: 200%;
 		border: none;
 		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
 	}
 
 	input:focus {
@@ -365,7 +377,7 @@
 	}
 		
 	.btn:active {
-		background-color: #FFFF00;
+		background-color: #F6FC7F;
 	}
 	
 	.btncal {
@@ -389,6 +401,10 @@
 		font-size: 300%;
 		border: none;
 		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
 	}
 	
 	input:focus {
@@ -480,7 +496,7 @@
 	}
 		
 	.btn:active {
-		background-color: #FFFF00;
+		background-color: #F6FC7F;
 	}
 
 	.btncal {
@@ -504,6 +520,10 @@
 		font-size: 450%;
 		border: none;
 		padding: 0% 0%;
+	}
+		
+	.btn0:active {
+		background-color: #F6FC7F;
 	}
 
 	input:focus {
