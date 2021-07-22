@@ -88,14 +88,14 @@ function result_img() {
 				img_src = "result/other_safe.jpg"
 			}	
 		} else if (select == "2") {
-			if (result < 54) {
+			if (result < 56) {
 				img_src = "result2/less_child.jpg"
-			} else if (result >= 54 && result <= 63) {
-				img_src = "result2/54~63.jpg"
-			} else if (result >= 64 && result <= 73) {
-				img_src = "result2/64~73.jpg"
-			} else if (result >= 74 && result <= 82) {
-				img_src = "result2/74~82.jpg"
+			} else if (result >= 56 && result <= 63) {
+				img_src = "result2/56~63.jpg"
+			} else if (result >= 64 && result <= 72) {
+				img_src = "result2/64~72.jpg"
+			} else if (result >= 73 && result <= 82) {
+				img_src = "result2/73~82.jpg"
 			} else if (result >= 83 && result <= 84) {
 				img_src = "result2/83~84.jpg"
 			} else if (result >= 85 && result <= 89) {
